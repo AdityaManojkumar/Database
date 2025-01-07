@@ -17,5 +17,4 @@
  //ii.
  List only the name and type of the movie where Ram has acted sorted by movie names.
  db.movie.find({act_n:"ram"},{film:1,type:1}).sort({film:1}).pretty()
- { "_id" : ObjectId("5c273ddb7fd87cec5944fabd"), "film" : "battleship", "type" : "thriller" }
- { "_id" : ObjectId("5c273ef97fd87cec5944fac1"), "film" : "xxx", "type" : "action" }
+ 
